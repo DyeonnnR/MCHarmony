@@ -1,0 +1,148 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar-container {
+    background: brown;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.navbar-beranda {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    padding: 10px 10px;
+    width: 10%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-navbar {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-decoration: none;
+    justify-content:  flex-end;
+    align-items: center;
+    padding: 10px 5px; 
+    bottom: 0px;
+    right: 30px;
+    margin: 0;
+}
+
+.b-navbar {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5px;
+    bottom: 0px;
+    right: 180px;
+    margin: 0;
+}
+
+.li-navbar:hover { 
+    background-color: rgba(128, 93, 93, 0.397);
+    transition: 5s ease-in-out;
+    transition-delay: 3s;
+    border-radius: 4px;
+}
+
+.profil-container{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+}
+
+.status-profil {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    width: 144px;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-profil{
+    width: 70px;
+    height: 70px;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    margin: 5px;
+    justify-items: flex-end;
+}
+
+.container-footer {
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    position: relative;
+    left: 0;
+}
+
+.footer-h1  {
+    font-size: 25px;
+    color: white;
+}
